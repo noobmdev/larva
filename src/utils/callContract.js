@@ -38,9 +38,7 @@ export const getSpinCount = async (library, account) => {
   try {
     if (!library || !account) return;
     const spinningContract = getSpinningContract(library);
-    return callContract(spinningContract, SPINNING_METHODS.spinCounts, [
-      account,
-    ]);
+    return callContract(spinningContract, SPINNING_METHODS.spinned, [account]);
   } catch (error) {
     throw error;
   }

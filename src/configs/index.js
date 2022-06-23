@@ -10,7 +10,7 @@ export const SPINNING_FEE = BigNumber.from("1");
 
 export const SPINNING_METHODS = {
   spin: "spin",
-  spinCounts: "spinCounts",
+  spinned: "spinned",
 };
 
 export const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";

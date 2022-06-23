@@ -63,7 +63,9 @@ const Wheel = () => {
       } catch (error) {
         alert(error.message);
       }
-
+      if (!isSpinning) {
+        return spinningContract.removeAllListeners();
+      }
       spinningContract.on("Result", (sender, box, timestamp) => {
         if (sender) {
           if (sender.toLowerCase() === account.toLowerCase()) {
@@ -76,7 +78,7 @@ const Wheel = () => {
         }
       });
     })();
-  }, [account, library, show, result]);
+  }, [account, library, show, result, isSpinning]);
 
   const handleConnect = useCallback(() => {
     connect(injected);
