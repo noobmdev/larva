@@ -1,0 +1,6 @@
+#swap{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../../assets/bg/4.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}

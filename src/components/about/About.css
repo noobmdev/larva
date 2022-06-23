@@ -1,0 +1,23 @@
+#about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../../assets/bg/2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0 !important;
+}
+
+.tab-text{
+    text-align: left !important;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab-text > h1{
+    color: #00bbe8;
+}
+
+.img-wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

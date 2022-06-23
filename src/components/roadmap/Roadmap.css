@@ -1,0 +1,20 @@
+.img-roadmap > img{
+    max-width: 200px;
+}
+
+#roadmap{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../../assets/bg/3.png");
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0;
+}
+
+#title-roadmap{
+    font-size: 50px;
+    color: #00bbe8;
+}
+
+#title-text{
+    font-family: tahoma;
+    color: white;
+}

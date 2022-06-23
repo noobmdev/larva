@@ -1,0 +1,21 @@
+#art{
+    padding: 5% 0;
+    background-color: #111
+}
+
+.text-footer{
+    margin-top: 10px;
+    font-family: tahoma;
+    color: white;
+}
+
+.info{
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+}
+
+.info > div{
+    max-width: 100px;
+}

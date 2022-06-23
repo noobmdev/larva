@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(./assets/fzup.TTF);
+}
+
+*{
+  font-family: myFont;
+}
+
+.nav-link{
+  margin-right: 20px !important;
+  font-size: 20px;
+  color: #00bbe8 !important;
+}
+
+.text-larva{
+  color: #00bbe8 !important;
+}
+
+.navbar{
+  background-color: #00000022 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand > img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar{
+    background-color: azure !important;
+  }
+}
